@@ -1,0 +1,43 @@
+.landing-page-container{
+    .heading{
+        font-size: 60px;
+        margin-bottom: 30px;
+    }
+
+    .landing-image{
+        margin-bottom: -50px;
+        border-radius: 20px;
+        min-height: 350px;
+        object-fit: cover;
+    }
+
+    .why-us-container{
+        padding-top: 100px;
+
+        .why-card-container{
+            display: flex;
+            flex: 1 1 auto;
+        }
+        .why-us-heading{
+            font-family: HelveticaNeue Medium;
+            color: #1A253C;
+            margin-bottom: 20px;
+
+        }
+        .card-heading{
+            color: #43AFFF;
+            font-weight: 600;
+        }
+
+        .companies-img-container{
+            min-width: 20%;
+            max-width: 20%;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    
+}

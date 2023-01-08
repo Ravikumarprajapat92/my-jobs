@@ -1,0 +1,21 @@
+.single-post-modal-body{
+    background-color: #A9AFBC;
+    border-radius: 15px;
+    padding: 10px 0;
+    max-height: 70vh;
+    overflow: auto;
+    margin-bottom: 20px;
+
+    .single-post-card {
+        border: 1px solid #303F6080;
+    }
+
+    .medium-font-family {
+        font-family: HelveticaNeue Medium;
+    }
+
+    .single-post-avatar{
+        display: inline-flex;
+        margin-right: 20px;
+    }
+}

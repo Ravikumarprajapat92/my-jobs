@@ -1,0 +1,63 @@
+@import "~bootstrap/scss/bootstrap";
+
+* {
+  box-sizing: border-box;
+  font-family: arial;
+}
+
+@font-face {
+  font-family: "HelveticaNeue Medium";
+  src: local("HelveticaNeue Medium"),
+    url("../public/assets/fonts/Helvetica-Neue-Font/HelveticaNeueMedium.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "HelveticaNeue Regular";
+  src: local("HelveticaNeue Regular"),
+    url("../public/assets/fonts/Helvetica-Neue-Font/HelveticaNeueRegular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.logo-color{
+  color: #43AFFF;
+}
+
+.section-dark{
+  background-color: #1A253C;
+}
+
+.section-light{
+  background-color: #EDF6FF;
+}
+
+.primary-btn{
+  color: white;
+  background-color: #43AFFF;
+  border: 1px solid #43AFFF;
+  width: 115px;
+}
+
+.avatar {
+  display: flex;
+  height: 46px;
+  width: 46px;
+  border-radius: 50%;
+  background-color: #d9efff;
+  color: #303f60;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}

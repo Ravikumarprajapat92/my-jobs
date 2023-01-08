@@ -1,0 +1,39 @@
+.navContainer {
+  background-color: #1a253c;
+  padding: 10px 50px;
+
+  .login-btn {
+    border: 1px solid #43afff;
+    border-radius: 5px;
+    min-width: 130px;
+    background-color: #43afff33;
+    color: white;
+    font-family: HelveticaNeue Medium;
+  }
+
+  .avatar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .down-arrow {
+      width: 0;
+      height: 0;
+      border-left: 6px solid transparent;
+      border-right: 6px solid transparent;
+      border-top: 6px solid white;
+      margin-left: 6px;
+      cursor: pointer;
+    }
+    
+
+}
+
+.nav-hr {
+    margin: 10px 0 0 0;
+    color: white;
+}
+}
+.nav-list{
+    min-width: 80px;
+    cursor: pointer;
+}

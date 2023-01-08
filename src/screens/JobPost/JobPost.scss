@@ -1,0 +1,95 @@
+.job-posts-container {
+  .breadcrumb {
+    font-size: 11px;
+    display: flex;
+    align-items: baseline;
+
+    .breadcrumb-img {
+      margin-right: 3px;
+    }
+  }
+
+  .job-post-top-card {
+    margin-top: -30px;
+  }
+
+  .job-card-container {
+    display: flex;
+    flex: 1 1 auto;
+
+    .job-card-body {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .job-title {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      .job-desc {
+        font-size: 14px;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+      }
+
+      .job-card-footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 12px;
+
+        .job-location-container {
+          max-width: 50%;
+          display: flex;
+          flex: 1 1 auto;
+
+          .job-location-name {
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+          }
+        }
+
+        .btn-view-job {
+          background: #43afff33;
+          color: #303f60;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+
+  .paggi-container {
+    padding-bottom: 50px;
+    .paggi-prev {
+        margin-right: 8px;
+        cursor: pointer;
+    }
+    .paggi-next{
+        cursor: pointer
+    }
+    .paggi-item {
+      height: 30px;
+      width: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 5px;
+      margin-right: 8px;
+      background-color: #43afff33;
+      cursor: pointer;
+    }
+  }
+
+  .no-records-container{
+    height: 74vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #303F60;
+  }
+}
